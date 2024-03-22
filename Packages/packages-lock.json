@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.cj-mills.bounding-box-2d-toolkit": {
+      "version": "https://github.com/cj-mills/bounding-box-2d-toolkit.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "439b7d86b068eabbae2a8de3d535f44593c789db"
+    },
     "com.cj-mills.cv-image-gallery": {
       "version": "https://github.com/cj-mills/unity-cv-image-gallery.git",
       "depth": 0,
@@ -21,21 +30,28 @@
       "dependencies": {},
       "hash": "c248fce96bd241e71016eafe98c857b1d83a6e27"
     },
+    "com.cj-mills.yolox-utils": {
+      "version": "https://github.com/cj-mills/unity-yolox-utils.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "27868ed47dda51a3f6287f4b6c382e8aeebb1872"
+    },
     "com.unity.2d.animation": {
-      "version": "10.0.3",
+      "version": "9.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.common": "9.0.2",
+        "com.unity.2d.common": "8.0.2",
         "com.unity.2d.sprite": "1.0.0",
-        "com.unity.collections": "1.2.4",
+        "com.unity.collections": "1.1.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.aseprite": {
-      "version": "1.0.1",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -47,7 +63,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.common": {
-      "version": "9.0.2",
+      "version": "8.0.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -55,7 +71,7 @@
         "com.unity.mathematics": "1.1.0",
         "com.unity.modules.uielements": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.burst": "1.8.4"
+        "com.unity.burst": "1.7.3"
       },
       "url": "https://packages.unity.com"
     },
@@ -67,11 +83,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
-      "version": "9.0.1",
+      "version": "8.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.common": "9.0.2",
+        "com.unity.2d.animation": "9.1.0",
+        "com.unity.2d.common": "8.0.2",
         "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -83,12 +100,12 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
-      "version": "10.0.2",
+      "version": "9.0.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.2d.common": "9.0.2",
+        "com.unity.2d.common": "8.0.1",
         "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -103,7 +120,7 @@
       }
     },
     "com.unity.2d.tilemap.extras": {
-      "version": "4.0.2",
+      "version": "3.1.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -115,11 +132,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.8",
+      "version": "1.8.12",
       "depth": 3,
       "source": "registry",
       "dependencies": {
-        "com.unity.mathematics": "1.2.1"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -152,14 +170,14 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.2d.animation": "10.0.3",
+        "com.unity.2d.animation": "9.1.0",
         "com.unity.2d.pixel-perfect": "5.0.3",
-        "com.unity.2d.psdimporter": "9.0.1",
+        "com.unity.2d.psdimporter": "8.0.4",
         "com.unity.2d.sprite": "1.0.0",
-        "com.unity.2d.spriteshape": "10.0.2",
+        "com.unity.2d.spriteshape": "9.0.2",
         "com.unity.2d.tilemap": "1.0.0",
-        "com.unity.2d.tilemap.extras": "4.0.2",
-        "com.unity.2d.aseprite": "1.0.1"
+        "com.unity.2d.tilemap.extras": "3.1.2",
+        "com.unity.2d.aseprite": "1.1.0"
       }
     },
     "com.unity.ide.rider": {
